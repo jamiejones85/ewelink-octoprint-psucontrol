@@ -13,7 +13,7 @@ const connection = new ewelink({
   /* get specific devide info */
   const device = await connection.getDevice(process.env.E_WE_LINK_PRINTER_DEVICE_ID);
 
-  process.exitCode = device.online ? 0 : 1 
+  process.exitCode = device.params.switch == 'on' ? 0 : 1 
 
 
 
