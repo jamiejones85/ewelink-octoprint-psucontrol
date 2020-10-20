@@ -1,0 +1,14 @@
+{
+  "name": "ewelink-octoprint-psucontrol",
+  "version": "1.0.0",
+  "description": "A set a simple scripts to use with octoprint psucontrol plugin (https://github.com/kantlivelong/OctoPrint-PSUControl) to allow the use of a Sanoff smart switch that uses eWeLink",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "jamiejones85",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ewelink-api": "^3.1.1"
+  }
+}
